@@ -91,3 +91,48 @@ border: 2px solid black;
 } */
 
 
+/* Media quires */
+
+/* Medium devices (tablet, 7868px and up ) */
+
+@media screen and (min-width: 768px) {
+
+#services .card-body {
+    /* Make all service cards the same height for consistency */
+    min-height: 191px;
+}
+    
+}
+
+/* Large devices (Small Laptops, 992px and up ) */
+@media screen and (min-width: 992px) {
+
+#services .card-body {
+    /* Make all service cards the same height for consistency */
+    min-height: auto;
+}
+    
+}
+
+/* xl devices (Large Desktop, 1200px and up ) */
+@media screen and (min-width: 1200px) {
+
+#services .card-body {
+    /* Make all service cards the same height for consistency */
+    min-height: 220px;
+}
+    
+}
+
+
+/* xxl devices (Large Desktop, 1400px and up ) */
+@media screen and (min-width: 1400px) {
+
+#services .card-body {
+    /* Make all service cards the same height for consistency */
+    min-height: 195px;
+}
+    
+}
+
+
