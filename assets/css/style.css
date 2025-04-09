@@ -74,6 +74,14 @@ h2 {
     margin-bottom: 1.5rem;
 }
 
+/* Game library card */
+
+#new-games .card,
+#fav-games .card {
+    border: none;
+
+}
+
 
 /* Grid */
 
