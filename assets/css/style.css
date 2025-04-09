@@ -106,8 +106,9 @@ h2 {
 /* Events */
 
 #events .table {
-  font-size: 0.7rem; /* Smaller size for extra small screens */
+    font-size: 0.7rem;
 }
+
 
 .student-discount {
   background-color: var(--highlight-color);
